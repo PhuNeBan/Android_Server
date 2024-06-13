@@ -26,7 +26,7 @@ router.post(
     // cmd --> ipconfig --> IPv4 Address
     // IPv4 172.16.108.63
     // const path = "http://192.168.10.105:8686/images/" + req.file.filename 
-    const path = "http://192.168.10.105:8686/images/" + req.file.filename 
+    const path = "http://192.168.10.245:8686/images/" + req.file.filename 
     return res.json({path: path});
     //  res.send('Upload file thành công');
   }

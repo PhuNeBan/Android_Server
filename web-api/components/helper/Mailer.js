@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
     secure: true, // use TLS
     auth: {
         user: 'dohoangphu.it@gmail.com',
-        pass: 'pyetpnxpnojaauyq'
+        pass: 'obnhwymxnteibbbxzso'
     },
 });
 const sendMail = async (data) => {
